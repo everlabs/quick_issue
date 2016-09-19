@@ -3,3 +3,6 @@
 Allows to create issues from the project's dashboard page. Really useful if you have a lot of projects in your redmine.
 
 https://dl.dropboxusercontent.com/u/2770884/Screen%20Shot%202016-08-01%20at%2011.54.04.png
+
+How to install plugin (this plugin doesn't require migration):
+http://www.redmine.org/projects/redmine/wiki/Plugins
