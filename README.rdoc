@@ -6,3 +6,5 @@ https://dl.dropboxusercontent.com/u/2770884/Screen%20Shot%202016-08-01%20at%2011
 
 How to install plugin (this plugin doesn't require migration):
 http://www.redmine.org/projects/redmine/wiki/Plugins
+
+To change or localize link text you should add key :quick_add_issue_link_text with preferred value directly in redmine locale.
