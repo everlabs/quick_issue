@@ -13,7 +13,7 @@ module QuickAddIssueHelperPatch
     def render_project_hierarchy_with_add_issue(projects)
       render_project_nested_lists(projects) do |project|
         s = link_to_project(project, {}, :class => "#{project.css_classes} #{User.current.member_of?(project) ? 'my-project' : nil}")
-        s << link_to('(add)', new_project_issue_path(project), :style => 'margin-left: 5px;')
+        s << link_to(t(:quick_add_issue_link_text, :default => '(add)'), new_project_issue_path(project), :style => 'margin-left: 5px;')
         if project.description?
           s << content_tag('div', textilizable(project.short_description, :project => project), :class => 'wiki description')
         end
